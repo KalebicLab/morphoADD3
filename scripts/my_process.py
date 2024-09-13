@@ -513,29 +513,29 @@ rt_processInfo.show(rt_processInfo_Name)
 
 
 #if saveResults :
-	#IJ.log("Saving results ...")
-	#basename = folderName # os.path.splitext(imp0.getTitle())[0]
-	#name_ffile = os.path.splitext(imp0.getTitle())[0]
-	#savePath = filename.getParent()
+	IJ.log("Saving results ...")
+	basename = folderName # os.path.splitext(imp0.getTitle())[0]
+	name_ffile = os.path.splitext(imp0.getTitle())[0]
+	savePath = filename.getParent()
 	
-	#saveNameRoiSet = os.path.join( savePath,name_ffile +"_Roiset.zip" )
-	#roiManager = RoiManager.getInstance()
-	#roiManager.runCommand(imp0,"Deselect")
-	#roiManager.runCommand("Save", saveNameRoiSet )
+	saveNameRoiSet = os.path.join( savePath,name_ffile +"_Roiset.zip" )
+	roiManager = RoiManager.getInstance()
+	roiManager.runCommand(imp0,"Deselect")
+	roiManager.runCommand("Save", saveNameRoiSet )
 	
-	#saveNameCellInfo = os.path.join( savePath, name_ffile +"_CellInfo.xls" )
-	##IJ.selectWindow( rt_cellInfo_Name )
-	##IJ.saveAs("Results", saveNameCellInfo )
-	#rt_cellInfo.saveAs(saveNameCellInfo)
+	saveNameCellInfo = os.path.join( savePath, name_ffile +"_CellInfo.xls" )
+	IJ.selectWindow( rt_cellInfo_Name )
+	IJ.saveAs("Results", saveNameCellInfo )
+	rt_cellInfo.saveAs(saveNameCellInfo)
 	
-	#saveNameProcessInfo = os.path.join( savePath, name_ffile +"_ProcessInfo.xls" )
-	#rt_processInfo.saveAs(saveNameProcessInfo)
-	##IJ.selectWindow( rt_processInfo_Name )
-	##IJ.saveAs("Results", saveNameProcessInfo )
+	saveNameProcessInfo = os.path.join( savePath, name_ffile +"_ProcessInfo.xls" )
+	rt_processInfo.saveAs(saveNameProcessInfo)
+	IJ.selectWindow( rt_processInfo_Name )
+	IJ.saveAs("Results", saveNameProcessInfo )
 
-	#IJ.selectWindow(impResult2.getTitle() )
-	#savenameResultImage = os.path.join( savePath, name_ffile +"_results.tif" )
-	#IJ.saveAs("Tiff", savenameResultImage )
+	IJ.selectWindow(impResult2.getTitle() )
+	savenameResultImage = os.path.join( savePath, name_ffile +"_results.tif" )
+	IJ.saveAs("Tiff", savenameResultImage )
 	
 IJ.log("done!")
 
