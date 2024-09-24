@@ -29,8 +29,7 @@ for (i = 0; i < file_list.length; i++) {
 	selectWindow("Results");
 	saveAs("Results", save_folder + File.separator + file_list[i] + "_processesInfo.csv");
 	IJ.renameResults("Results","Neuron Analysis - process Information - saved");
-
-	
+	
 	selectWindow("enlarged_DUP_"+file_list[i]);
 	save_path = save_folder + File.separator + "result_" + file_list[i];
     saveAs("Tiff", save_path);

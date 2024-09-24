@@ -1,0 +1,10 @@
+ ,Folder name,Image name,Process Id,Longest path name,process length,process euclidean length,length ratio
+1,test_data,001.tif,8,process-8-1,157.112,138.600,1.134
+2,test_data,001.tif,1,process-1-1,149.162,116.469,1.281
+3,test_data,001.tif,2,process-2-1,82.950,80.604,1.029
+4,test_data,001.tif,3,process-3-1,67.128,65.391,1.027
+5,test_data,001.tif,4,process-4-1,58.073,54.083,1.074
+6,test_data,001.tif,5,process-5-1,60.646,57.689,1.051
+7,test_data,001.tif,6,process-6-1,67.011,63.063,1.063
+8,test_data,001.tif,7,process-7-1,101.403,94.641,1.071
+9,test_data,001.tif,9,process-9-7,444.805,333.264,1.335
