@@ -5,7 +5,8 @@ The scripts contained in this repository will reproduce the morphological analys
 ### Installation
 Download the scripts and example data either manually or by cloning this repository.
 In Fiji, install the "protrusion_analysis.py" script by going to "Plugins -> Install" and selecting the script
-from the scripts folder in this repository. From https://git.mpi-cbg.de/scicomp/kalebic_et_al_progenitors_processes_analysis, download the `SkeletonAnalysis_-1.2.0.jar` file and place it in the `plugins` folder of Fiji.
+from the scripts folder in this repository. 
+From https://git.mpi-cbg.de/scicomp/kalebic_et_al_progenitors_processes_analysis, download the `SkeletonAnalysis_-1.2.0.jar` file and place it in the `plugins` folder of Fiji.
 Restart Fiji
 
 
