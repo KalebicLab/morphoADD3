@@ -1,6 +1,6 @@
 # Morphological Analysis Pipeline from Segmented Images
 
-The scripts contained in this repository will reproduce the analysis presented in XXXX (fill in).
+The scripts contained in this repository will reproduce the morphological analysis presented in Barelli et al, "Morphoregulatory ADD3 underlies glioblastoma growth and formation of tumor-tumor connections".
 
 ### Installation
 Download the scripts and example data either manually or by cloning this repository.
